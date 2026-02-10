@@ -1,0 +1,127 @@
+        body {
+            margin: 0;
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+        }
+
+        .header {
+            background-color: #5656ff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+
+
+        }
+
+        .header-links a {
+            color: white;
+            padding: 5px 15px;
+            text-decoration: none;
+            border-radius: 25px;
+
+        }
+
+        .logo {
+            width: 100px;
+        }
+        .header-links a:hover {
+            background-color: #7d7dff;
+        }
+        .header-links button {
+            background-color: #ee626b;
+            padding: 5px 15px;
+            border-radius: 15px;
+            border: none;
+            color: white;
+
+        }
+        .header-links button:hover {
+            background-color: #f6a9ae;
+        }
+        .landing-page {
+            background-color: #5656ff;
+            display: flex;
+            color: white;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 50px;
+            border-radius: 0px 0px 50px 50px;            
+        }
+        .landing-page-search input {
+            border-radius: 50px;
+            border: none;
+            height: 30px;
+
+        }
+        .landing-page-search button {
+            border: none;
+            background-color: #ee626b;
+            height: 30px;
+            color: white;
+            border-radius: 15px;
+            position: absolute;
+            left: 200px;
+            padding: 5px 20px;
+
+        }
+        .landing-page-search button:hover {
+            background-color: #f6a9ae;
+        }
+        .landing-page-left-section {
+            width: 450px;
+        }
+        .trending-container {
+            padding: 25px 50px;
+
+        }
+        .trending-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .trending-header button {
+            border: none;
+            background-color: #ee626b;
+            color: white;
+            border-radius: 15px;
+            padding: 5px 20px;
+
+        }
+        .card {
+            width: 300px;
+            background-color: #eeeeee;
+            border-radius: 20px;
+            margin: 20px;
+           
+
+        }
+        .card img {
+            border-radius: 15px;
+        }
+        .card h3{
+            padding: 5px 5px;
+            text-align: center;
+            height: 50px;
+        }
+        .trending-card {
+            display: flex;
+            gap: 12px;
+        }
+        .footer-container {
+            background-color: #5656ff;
+            height: 150px;
+            border-radius: 100px 100px 0 0 ;
+            margin-top: 100px;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        .footer {
+            margin: auto;
+            text-align: center;
+            
+        }
+
